@@ -8,14 +8,17 @@
 body {
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
 }
+.sr-only {
+    display: none;
+}
 
-.container {
+.main {
     max-width: 300px;
-    margin: 0 auto;
+    margin-top: 12rem;
 }
 
 .card {
@@ -39,7 +42,7 @@ body {
 
 .card_text {
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     color: hsl(220, 15%, 55%);
     padding: 0 0.7rem 0.7rem 0.7rem;
 }
